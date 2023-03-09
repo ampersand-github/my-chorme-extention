@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "my-extension",
+  "version": "1.0",
+  "icons": {
+    "48": "icon-48.png"
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "clipboardWrite",
+    "scripting",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "content_scripts.js"
+  }
+}
